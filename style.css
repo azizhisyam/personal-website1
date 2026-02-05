@@ -1,0 +1,65 @@
+/* Reset sederhana */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style dasar body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #404c58;
+  color: #333;
+  text-align: center;
+  padding: 40px;
+}
+
+/* Judul */
+h1 {
+  color: #c6d014;
+  margin-bottom: 10px;
+}
+
+/* Paragraf */
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: antiquewhite;
+}
+
+/* Gambar */
+.gambarsatu {
+  width: 260px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(201, 189, 189, 0.15);
+}
+
+img:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+  transform: scale(1.03);
+  transition: 0.5s;
+}
+
+/* Tombol (jika nanti ditambahkan) */
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+a{
+  color: antiquewhite;
+}
+
+a:hover{
+  color: #2980b9;
+}
